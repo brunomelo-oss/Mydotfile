@@ -6,8 +6,6 @@ nvim/.config/nvim/lua/secrets.lua
 *.tfstate
 *.tfstate.backup
 *.tfvars
-.terraform/
-.terraform.lock.hcl
 
 
 # .gitignore para ~/.config/nvim/
