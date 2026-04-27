@@ -31,6 +31,10 @@ alias vim=nvim
 alias v=vim 
 alias vi=v
 alias batcat=bat
+alias python310='/opt/homebrew/bin/python3.10'
+alias python='/opt/homebrew/bin/python3.10'
+alias pip='/opt/homebrew/bin/pip3.10'
+alias pip3='/opt/homebrew/bin/pip3.10'
 
 # History Search
 autoload -Uz history-search-end
@@ -77,3 +81,5 @@ _fzf_comprun() {
     *)            fzf --preview "bat -n --color=always --line-range :500 {}" "$@" ;;
   esac
 }
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
