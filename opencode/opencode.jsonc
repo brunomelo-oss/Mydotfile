@@ -33,7 +33,7 @@
     // AWS IaC MCP - CDK e CloudFormation (requer uv)
     "aws-iac": {
       "type": "local",
-      "command": ["uvx", "awslabs.cdk-mcp-server@latest"],
+      "command": ["uvx", "awslabs.aws-iac-mcp-server@latest"],
       "enabled": true,
       "timeout": 120000,
       "environment": {}
