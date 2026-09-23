@@ -70,7 +70,7 @@
       "command": ["npx", "-y", "@upstash/context7-mcp"],
       "enabled": true,
       "environment": {
-        "CONTEXT7_API_KEY": "ctx7sk-7cb515f7-addc-48aa-97c4-3977121f8ac8"
+        "CONTEXT7_API_KEY": "${CONTEXT7_API_KEY}"
       }
     }
   }
